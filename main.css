@@ -1,0 +1,181 @@
+nav{
+
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+    background: linear-gradient(to left, grey, black );
+    
+    /* margin: none; */
+    /* color: white; */
+    justify-content: space-between;
+}
+
+
+body{
+    background: #e8e8e8;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+    justify-content: space-between ;
+
+}
+
+.right-nav:hover{
+    text-decoration: underline;
+}
+
+a img{
+    height: 100px;
+    /* width: 190px; */
+    margin:0px
+}
+
+/* .products{
+    display:grid;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+} */
+
+.container{
+    display:grid;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.prod img{
+    height: 140px;
+    border-bottom: solid 2px;
+}
+
+.prod{
+    border: solid black 2px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+
+footer{
+    bottom: 0px;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, grey, black );
+}
+
+
+.prodname{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.max{
+    color: red;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+
+.products button{
+    display: grid;
+    grid-row-end: auto;
+    padding: 7px;
+    border: solid black 2px;
+    border-radius: 4px;
+    text-align: center;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 100px;
+}
+
+.products button:hover{
+    font-weight: bold;
+    background-color: black;
+}
+
+
+.description{
+    font-weight: bold;
+    margin-top: 60px;
+    text-align:justify;
+    width: 50%;
+}
+
+.noti{
+    padding: 5px;
+}
+
+.cart{
+    padding: 5px;
+}
+
+/* <section class="Sample">        
+        <div class="section1"><img src="Logo.png" alt="MuscleBooze Logo"><p>At Muscle Booze</p></div>
+    </section>
+    <hr> */
+
+.section1{
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sample{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section1 p{
+    font-weight: lighter;
+}
+
+/* <section class="whychoosemb">
+        <h2>Why choose Muscle Booze?</h2>
+        <p>body.</p>
+        <p>Join the Muscle Booze community today </p>
+    </section> */
+.whychoosemb{
+    font-size: 20px;
+    
+    padding: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.537);
+}
+
+.whychoosemb li{
+    justify-content: center;
+    align-items: center;
+}
